@@ -1,0 +1,10 @@
+[project]
+name = "leitor-pdf-telegram"
+version = "1.0.0"
+description = "Bot + Mini App do Telegram que adiciona um leitor de PDF aos posts de um canal"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore:Using `httpx` with `starlette.testclient`"]
